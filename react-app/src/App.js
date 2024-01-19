@@ -44,8 +44,9 @@ const completeTask = (id) =>{
 
  return(
   <div className = "App">
+    <div>TODOLIST</div>
     <div className="addTask">
-      <input onChange={handleChange}/> 
+      <input onChange={handleChange}/><br/>
       <button onClick={addTask}>addTask</button>
     </div>
     <div className = "list">
